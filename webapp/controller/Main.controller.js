@@ -1,9 +1,3 @@
-sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function (Controller) {
-	"use strict";
+import * as Controller from "sap/ui/core/mvc/Controller";
 
-	return Controller.extend("my.ui5app.controller.Main", {
-
-	});
-});
+export default Controller.extend("my.ui5app.controller.Main", {});
